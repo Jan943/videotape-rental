@@ -1,6 +1,7 @@
-package pl.sopata.videotaperental;
+package pl.sopata.videotaperental.api;
 
 import org.springframework.web.bind.annotation.*;
+import pl.sopata.videotaperental.dao.entity.VideoCassette;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
