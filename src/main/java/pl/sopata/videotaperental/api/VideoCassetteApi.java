@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/cassettes")
+@CrossOrigin
 public class VideoCassetteApi {
 
     private VideoCassetteManager videoCassettes;

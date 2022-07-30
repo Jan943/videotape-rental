@@ -40,5 +40,8 @@ public class VideoCassetteManager {
     public void fillDB() {
         save(new VideoCassette(1L, "Titanic", LocalDate.of(1995,1,1)));
         save(new VideoCassette(2L, "Pulp Fiction", LocalDate.of(1990,2,2)));
+        save(new VideoCassette(3L, "Broadwalk empire", LocalDate.of(2010,3,3)));
+        save(new VideoCassette(4L, "Spiderman", LocalDate.of(2015,4,4)));
+        save(new VideoCassette(5L, "Batman", LocalDate.of(2011,5,5)));
     }
 }
